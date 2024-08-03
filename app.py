@@ -24,13 +24,13 @@ def predict_image_class(image):
     return predicted_class, confidence
 
 
-st.title("Tomato plant disease classification:")
+st.title("Tomato Plant Disease Detection:")
 
 uploaded_file = st.file_uploader("Choose a file:", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
-    st.image(image, caption='Uploaded image', use_column_width=True)
+    st.image(image, caption='Uploaded image')
     predicted_class, confidence = predict_image_class(image)
     st.write("Results:\n")
     st.write(f"Predicted disease: {predicted_class}")
