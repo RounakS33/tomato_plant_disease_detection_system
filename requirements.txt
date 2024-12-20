@@ -1,0 +1,5 @@
+tensorflow
+pickle-mixin
+streamlit
+Pillow
+numpy
