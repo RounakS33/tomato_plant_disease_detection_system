@@ -1,7 +1,7 @@
 # Tomato Plant Disease Detection and Classification System
 This project classifies tomato plant diseases using a Convolutional Neural Network (CNN). The application is built with Streamlit and allows users to upload images of tomato leaves to predict the disease.
 
-####Dataset: https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf
+#### Dataset: https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf
 
 ![Project screenshot](/tdc.png)
 
